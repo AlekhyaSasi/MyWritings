@@ -16,7 +16,7 @@ You try to remove self-doubt by forcing yourself to *think positive*, which usua
 ##### *"Reflect upon your present blessings, of which every man has many--not on your past misfortunes, of which all men have some." --Charles Dickens*
 
 >Why are you searching for reasons to fail ? 
->Instead of figuring out a way to make something good happen.
+>Instead figure out a way to make something good happen.
 >>The biggest difference between successful people and unsuccessful ones is that, successful people are determined to make the situation work for them rather than playing the role of the victim and searching for reasons why a situation won’t work.
 
 ___
