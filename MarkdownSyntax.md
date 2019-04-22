@@ -83,8 +83,7 @@ ex - ![bing](https://www.bing.com/images/search?view=detailV2&id=4FC1825FF6D187C
 | x == y | assignment operator |
 | X ^ y | xor operation |
 
-
-### the big Heading 
+ 
 ## Defining List using :
 term : definition
 ## Strikethrough is done by 2~
@@ -95,6 +94,7 @@ term : definition
 - [ ] eat healthy
 ## Email address 
 To quickly turn a URL or email address into a link, enclose it in angle brackets.
+
 <https://www.bing.com>
 
 <try@example.com>
