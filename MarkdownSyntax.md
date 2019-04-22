@@ -1,48 +1,44 @@
-| Element |  Markdown Syntax |
+AFTER YOU DOWNLOAD THE FILE, "EDIT" IT TO KNOW AT THE SYNTAXES 
+
 # Headings	
 # for H1
 ## for H2
-### for H1
-	**bold text should be in between "** **"**
-*Italic	 text should be in between "* *"*
-> blockquote should be startin with ">"
+### for H3
+**bold text**
+*Italic	 text*
+> blockquote
 ## Ordered List	followed with no.s 
 1. First item
 2. Second item
 3. Third item
-## Unordered List	followed by "-"
+## Unordered List followed by Hyphen
 - First item
 - Second item
 - Third item
-## sample code in between "` `"
-`def poem():
-    print("There is a place where the sidewalk ends")
-    print("And before the street begins,")
-    print("And there the grass grows soft and white,")
-    print("And there the sun burns crimson bright,")
-    print("And there the moon-bird rests from his flight")
-    print("To cool in the peppermint wind.")
+## sample code
+`for x in y: print(x)`
 
-for count in [1,2,3]:
-    poem()`
-## Horizontal Rule	---
+## Horizontal Rule	
+---
 Link can be given as name in [] and link in () ex - [link](https://www.example.com)
 Image can be given as alt_text in ![] and image file in ()![alt text](image.jpg)
-## Table	can be given in between  " | " and also " |"
+## Table can be given in between  " | " and also "|"
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-## Fenced Code Block	can be given in  "```"
+## Fenced Code Block
 ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
+def poem():
+	print("There is a place where the sidewalk ends")
+    	print("And before the street begins,")
+    	print("To cool in the peppermint wind.")
+
+for count in [1,2,3]:
+    poem(count)
 ```
-## 	Here's a sentence with a footnote. "[^1]"
+## Here's a sentence with a footnote. [^1]
 [^1]: This is the footnote.
 ## Heading ID	is given under 3# 
 ### My Great Heading {#custom-id}
