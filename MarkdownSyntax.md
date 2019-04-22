@@ -20,13 +20,16 @@ AFTER YOU DOWNLOAD THE FILE, "EDIT" IT TO KNOW AT THE SYNTAXES
 
 ## Horizontal Rule	
 ---
+
 Link can be given as name in [] and link in () ex - [link](https://www.example.com)
+---
 Image can be given as alt_text in ![] and image file in ()![alt text](image.jpg)
-## Table can be given in between  " | " and also "|"
+---
+## Table can be given in between  " | " and also " | "
 | Syntax | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| x == y | assignment operator |
+| X ^ y | xor operation |
 
 ## Fenced Code Block
 ```
@@ -38,10 +41,10 @@ def poem():
 for count in [1,2,3]:
     poem(count)
 ```
-## Here's a sentence with a footnote. [^1]
-[^1]: This is the footnote.
+## Here's a sample footnote. [^1]
+[^1]: This is the footnote description.
 ## Heading ID	is given under 3# 
-### My Great Heading {#custom-id}
+### the big Heading 
 ## Defining List using :
 term : definition
 ## Strikethrough is done by 2~
