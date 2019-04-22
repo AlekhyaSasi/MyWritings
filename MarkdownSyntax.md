@@ -60,15 +60,15 @@ for count in [1,2,3]:
 ## indented lists 
 ```
 1. if expression1:
-   1. statement(s)
+    - statement(s)
 2. if expression2:
-   1. statement(s)
+    - statement(s)
 3. elif expression3:
-   1. statement(s)
+    - statement(s)
 4. else:
-   1. statement(s)
+   - statement(s)
 5. else:
-   1. statement(s)
+   - statement(s)
 ```
 ---
 Link can be given as name in [] and link in () 
@@ -84,7 +84,6 @@ ex - ![bing](https://www.bing.com/images/search?view=detailV2&id=4FC1825FF6D187C
 | X ^ y | xor operation |
 
 
-## Heading ID	is given under 3# 
 ### the big Heading 
 ## Defining List using :
 term : definition
