@@ -94,3 +94,37 @@ git help <command>
 
 git help <concept>
 
+## Copy/Clone a GitHub repository:
+
+cd <project_directory>
+
+git clone https://github.com/<user>/<project name>
+
+cd example_project
+
+## Commiting changes:
+
+#### create a file and add some content
+
+vi {file name}                    
+
+cat {file name}
+
+#### to check the status of changed or added files
+
+git status
+
+#### adding or staging changes of a particular file
+
+git add {file name}
+
+#### adding or staging changes of all files
+
+git add .
+
+#### committing changes
+
+git commit -m "<commit message>"
+
+
+
