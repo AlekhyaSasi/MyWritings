@@ -12,11 +12,11 @@ git config --global --list
 
 #### define the author name to be used for all commits by the current user
 
-git config --global user.name <your name>
+git config --global user.name {your name}
 
 #### define the author email to be used for all commits by the current user
 
-git config --global user.email <your email>
+git config --global user.email {your email}
 
 ## Initializing an empty repository: 
 
@@ -88,19 +88,19 @@ git help -g
 
 #### read about a specific sub-command
 
-git help <command>
+git help {command}
 
 #### read about a specific concept
 
-git help <concept>
+git help {concept}
 
 ## Copy/Clone a GitHub repository:
 
-cd <project_directory>
+cd {project_directory}
 
-git clone https://github.com/<user>/<project name>
+git clone https://github.com/{user name}/{project name}
 
-cd example_project
+cd {project name}
 
 ## Commiting changes:
 
@@ -124,7 +124,7 @@ git add .
 
 #### committing changes
 
-git commit -m "<commit message>"
+git commit -m "{commit message}"
 
 
 
