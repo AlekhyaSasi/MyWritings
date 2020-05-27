@@ -110,9 +110,11 @@ vi {file name}
 
 cat {file name}
 
-#### to check the status of changed or added files
+#### to check the status of changed or added files 
 
-git status
+git status 
+
+#### to checj sta
 
 #### adding or staging changes of a particular file
 
