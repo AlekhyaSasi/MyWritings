@@ -22,6 +22,8 @@ git config --global user.email {your email}
 
 mkdir {repo name}
 
+#### change path to the intialized repo 
+
 cd {repo name}
    
 ## Notice the creation of .git directory and scratch or convert an existing unversioned code base to a git repository:            
@@ -34,15 +36,15 @@ ls -al
       
 ## Edit a file without using any editor:                                                               
 
-echo "this is my first file in empty repository" >> {file name.txt}     
+echo "this is my first file in empty repository" >> {file name.txt}  
+
+#### view the file
 
 cat {file name.txt}
 
 ## Create the file and enter some content:
 
 vi  {file name.txt}                                        
-
-cat {file name.txt}
 
 ## Existing unversioned project to repository
 
@@ -108,13 +110,21 @@ cd {project name}
 
 vi {file name}                    
 
-cat {file name}
-
 #### to check the status of changed or added files 
 
 git status 
 
-#### to checj sta
+#### to check the status with short messages 
+
+git status -s 
+
+?? - status for untracked files 
+
+A - added files 
+
+M - modified files 
+
+D - deleted files 
 
 #### adding or staging changes of a particular file
 
@@ -128,5 +138,28 @@ git add .
 
 git commit -m "{commit message}"
 
+## Check Commit history: 
 
+#### displays the entire commit history using the default formatting
 
+git log     
+
+#### oneline condensed view of each commit history                      
+
+git log --oneline
+
+#### only display commits that include the specified file                             
+
+git log {file}
+   
+#### show only commits that occur between {since} and {until}. 
+   
+both arguments can be either a commit ID, branch, name, HEAD, or any other kind of revision reference.                    
+
+git log {since}..{until}                     
+
+#### limit the number of commits by {limit}. 
+   
+git log -n {limit}                      
+   
+For example, git log -n 3 will display only 3 commits.  
