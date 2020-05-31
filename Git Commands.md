@@ -44,9 +44,13 @@ cat {file name.txt}
 
 ## Create the file and enter some content:
 
-vi  {file name.txt}                                        
+vi  {file name.txt} 
 
-## Existing unversioned project to repository
+i - to insert/add changes to files 
+
+:wq to quit and save
+
+## Existing unversioned project to repository:
 
 #### copy the downloaded file
 
@@ -138,6 +142,10 @@ git add .
 
 git commit -m "{commit message}"
 
+#### express commit - add and commit in a single step 
+
+git commit -am "{commit message} - {file name}"
+
 ## Check Commit history: 
 
 #### displays the entire commit history using the default formatting
@@ -163,3 +171,53 @@ git log {since}..{until}
 git log -n {limit}                      
    
 For example, git log -n 3 will display only 3 commits.  
+
+## Git Checkout: 
+
+#### Detached head state 
+
+git checkout {commit id} - you are in detached state where you can look around, make experimental changes and commit them. You can discard the changes you make in this state without affecting any branches by performing another checkout. 
+
+what you do here will not be saved in Git repo. A particular commit id may involve changes in multiple files. 
+
+#### to retain commits you created in the earlier commit id 
+
+git checkout -b {new brnach name} - do this in the detached state itself.
+
+####  Reverting a file changes to particular commit 
+
+git checkout {commit id} {file name} - this changes the status of the files thereby current state of repo. 
+
+#### Revert the changes made from earlier command 
+
+git checkout HEAD {file name}
+
+##  Revert a commit 
+
+git revert HEAD - this generates a revert commit message. If you would like to edit the message, press ":i" and then ":wq". 
+
+## Git Reset:
+
+It's a permanent undo. Be cautious as to when and where to use. 
+
+#### reset a particular file 
+
+git reset {file name} - unstage changes in a file. i.e. resets the staging area but leaves working directory unchanged. 
+
+#### reset multiple files 
+
+git reset - resets staging area to match most recent commit. But leaves working directory unchanged. 
+
+#### reset hard 
+
+ git reset --hard    - unstage changes and also reset the working directory to earlier commit. This also undos all uncommiteed changes. 
+
+
+
+
+
+
+
+
+
+
