@@ -1,16 +1,16 @@
 # Python Classes
 
-Python is an Object Oriented Programming (OOP) language. Its code is mostly implemented through classes and thus through objects. Python programming helps you to reuse code, making it easy to maintain and scale. 
-  
-Use this guide to know how to create a Python class.
+Python is an [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP) language. A class is a user-defined blueprint from which objects are created. Classes are best used to represent logical collection of attributes and methods.
+
+In this article, learn to create a Python class and how to use it using a sample code.
   
 ## What is a Class? 
   
-A class is a template for objects. Objects are an encapsulation of variables and functions into an entity, which is an instance of a class. i.e., A class contains a related code block such as functions and variables stored within that object. Unlike a function, a class can contain properties (or variables) and/or methods (or functions). The functionalities are defined by setting attributes. A single class may have multiple objects. The process of creating an object is called instantiation.
+A class is a logical template to represent objects. Unlike a function, a class can contain properties (or fields) and/or methods (or functions). Objects are instances of such classes representing one or more entities. The functionalities are defined by setting the class attributes. The process of creating an object is called instantiation. A single class may have multiple objects.
   
 #### Example
   
-Consider a class `Person_Information` which stores a person's information. In that case, a single person's details are an instance of the class. `Person_Information` class contains personal details such as `first_name`, `last_name`, `age` as variables and can also have functions such as `print_data ()`.
+Consider a class `PersonInformation` which store people information. `PersonInformation` class contains personal details such as `first_name`, `last_name`, `age` as fields and can also have functions such as `print_data ()`. A single person's details are an instance of the class. 
   
 ## Class Definition
   
@@ -23,7 +23,7 @@ class ClassName:
 
 ''' This is a docstring which briefly describes the class.'''
 
-# variables
+# fields
     
 # functions
     
@@ -32,11 +32,11 @@ class ClassName:
 
 ##### Note:
   
--   Capitalize the first letter of the class.
+-   Class names are written in [camel case](https://en.wikipedia.org/wiki/Camel_case).
    - **Example**: `ClassName` 
--  You can create a class without any statements. However, such a class is of less use.
 -  A class may contain a list of statements such as functions and methods.
--  It's recommended to include a docstring, which has a brief description of the class. 
+-  You can also create a class without any statements. However, such a class is of less use.
+-  It's recommended to include a docstring in the beginning, which briefly describes the functionality of the class. 
 
 ### Sample
   
@@ -72,7 +72,7 @@ There can also be special attributes that begin with double underscores `__`.
 
 ## Creating an Object
 
-Once a class is defined, an object is created with the same name, which can  instantiate new objects and access attributes. Object creation is similar to a function call.
+Once a class is defined, an object is created with the same name, which can instantiate new objects and access attributes. Object creation is similar to a function call.
 
 ### Syntax
 
@@ -82,7 +82,7 @@ objectName = ClassName ()
 
 This creates a new object instance, `ClassName`, which can be used to access the attributes. 
 
-### Sample - [Try this](https://replit.com/@AlekhyaSasi/CreateClass#main.py)
+### Sample 
 
 ``` python
 person_information_object = PersonInformation ()
@@ -125,7 +125,7 @@ def function_name (self, argument 1 ---- arguement n):
 - It's a reference to the current instance of the class and is used to access class variables.
 
 
-### Sample
+### Sample - [Try this](https://replit.com/@AlekhyaSasi/CreateClass#main.py)
 
 ``` python
 
@@ -160,6 +160,10 @@ Name: Alex Sa
 Age: 10
 
 ```
+
+## Conclusion
+
+In this article, You can learn about baisc concepts of classes in python. You can also view code samples on how to implement the constructors and methods in a class. Stay tuned for more informative articles.
 
 
 
