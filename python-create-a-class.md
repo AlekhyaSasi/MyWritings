@@ -100,7 +100,7 @@ Alex
 
 ## Defining class methods
 
-Methods are functions you can define to access and modify the attributes.
+Methods are functions you can define to access, modify and perform operations on these attributes.
 
 ### Syntax
 
@@ -110,10 +110,10 @@ class ClassName:
 
 # variables
 
-def __init__(self, arguement 1, ..., arguement n):
+def __init__(self, argument 1, ..., argument n):
   # more code
     
-def function_name(self, argument 1, ..., arguement n):
+def function_name(self, argument 1, ..., argument n):
   # more code
 ``` 
 
