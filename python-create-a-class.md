@@ -131,8 +131,7 @@ Let's use the above [sample code](#sample-1) with `__init__()` and a method.
 
 ### Sample - [Try this](https://replit.com/@AlekhyaSasi/Person-information-class?lite=true#main.py)
 
-``` 
-
+``` python
 class PersonInformation:
   ''' This is a class with personal information such as first name, last name, and age.'''
   
