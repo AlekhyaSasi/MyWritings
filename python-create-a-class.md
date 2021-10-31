@@ -1,46 +1,46 @@
 # Python Classes
 
-Python is an [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP) language. In Python, [classes](https://docs.python.org/3/tutorial/classes.html) are used to represent a logical collection of fields and methods. Further, these classes are utilizied to create objects.
+Python is an [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP) language. In Python, [classes](https://docs.python.org/3/tutorial/classes.html) are used to represent a logical collection of fields and methods. Further, these classes are utilized to create objects.
 
 In this article, learn how to create and use a Python class.
-  
+
 ## What is a Class? 
-  
+
 A class is a logical template to represent objects. In addition to functions or methods that perform related operations, a class can contain properties that represent state. Objects are instances of such classes representing one or more entities. The process of creating an object from a class is called instantiation. A single class can be instantiated several times representing several objects.
-  
+
 #### Example
 
-Consider a class `PersonInformation` representing information of a person. `PersonInformation` class may contain personal details like `first_name`, `last_name`, `age` as fields and may also include functions such as `print_data()` to print the information stored in those fields. Each person's details are stored in a single instance of the class.
-  
+Consider a class `PersonInformation` representing information of a person. `PersonInformation` class may contain personal details like `first_name`, `last_name`, `age` as fields and may include functions such as `print_data()` to print the information stored in those fields. Each person's details are stored in a single instance of the class.
+
 ## Class definition
-  
+
 A class is created using the keyword `class`.
-  
+
 ### Syntax
-  
+
 ``` python
 class ClassName:
 
 ''' This is a docstring which briefly describes the class.'''
 
 # fields
-    
+
 # functions
-    
+
 # more code
 ```
 
 ##### Note:
-  
+
 -  Class names are written in [camel case](https://en.wikipedia.org/wiki/Camel_case)
    - **Example**: `ClassName`, `PersonInformation`, `Country`, `TechnicalWriter`.
 -  Fields and methods are written in [snake_case](https://en.wikipedia.org/wiki/Snake_case).
 -  A class may contain blocks of code representing functions or fields.
--  It's recommended to include a docstring in the beginning, which briefly describes the class's functionality. 
+-  Its recommended to include a docstring in the beginning, which briefly describes the class's functionality. 
 -  You can also create a class without any statements. However, such a class is of less use.
 
 ### Sample
-  
+
 ``` python
 class PersonInformation
   
@@ -48,7 +48,7 @@ class PersonInformation
 ```
 
 A class creates a new local `namespace` where all its attributes are defined. 
-  
+
 ## Defining class attributes
 
 In a class, class attributes are fields defined outside the methods. They are shared across instances of the class in the same process. 
@@ -83,7 +83,7 @@ Once a class is defined, you can create an object by instantiating it. Object cr
 objectName = ClassName()
 ```
 
-This creates a new object instance, `objectName`, which can be used to access the attributes. 
+This creates a new object instance, `objectName`, which can be used to access the attributes.
 
 ### Sample 
 
@@ -124,14 +124,15 @@ def function_name(self, argument 1, ..., argument n):
 
 ### `__init__()` function
 
-All classes have a built-in function called `__int__()` which automatically executes when a class is initiated. You can use this function to assign values to class attributes at runtime. This type of function is known as a constructor in OOP.
+All classes have a built-in function `__int__()` that automatically executes when a class is initiated. You can use this function to assign values to class attributes at runtime. This type of function is known as a constructor in OOP.
 
 Let's use the above [sample code](#sample-1) with `__init__()` and a method. 
 
 
-### Sample - [Try this](https://replit.com/@AlekhyaSasi/CreateClass#main.py)
+### Sample - [Try this](https://replit.com/@AlekhyaSasi/Person-information-class?lite=true#main.py)
 
-``` python
+``` 
+
 class PersonInformation:
   ''' This is a class with personal information such as first name, last name, and age.'''
   
@@ -151,7 +152,7 @@ class PersonInformation:
 person_information = PersonInformation("Alex", "Sa", 10)
  
 person_information.print_data()
-``` 
+```
 
 ### Output
 
@@ -163,22 +164,6 @@ Age: 10
 
 ## Conclusion
 
-In this article, You can learn the basic concepts of classes in python. You can also view code samples to write a class containing methods. 
+In this article, you can learn the basic concepts of classes in Python. You can also view code samples to write a class containing methods. 
 
 Stay tuned for more informative articles.
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
- 
-  
-  
