@@ -4,7 +4,7 @@ Python is an [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-
 
 In this article, learn how to create and use a Python class.
 
-## What is a Class? 
+## What is a class? 
 
 A class is a logical template to represent objects. In addition to functions or methods that perform related operations, a class can contain properties that represent state. Objects are instances of such classes representing one or more entities. The process of creating an object from a class is called instantiation. A single class can be instantiated several times representing several objects.
 
@@ -73,7 +73,7 @@ There can also be special attributes that begin with double underscores `__`.
  - `__init__()` is the constructor of the class.
  - `__str__()` return human-readable representation of the class.
 
-## Creating an Object
+## Creating an object
 
 Once a class is defined, you can create an object by instantiating it. Object creation is similar to a function call.
 
@@ -92,7 +92,7 @@ person_information_object = PersonInformation()
 print(PersonInforamtion.first_name)
 ```
 
-### output 
+### Output 
 
 ```
 Alex
