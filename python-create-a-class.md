@@ -89,7 +89,7 @@ This creates a new object instance, `objectName`, which can be used to access th
 
 ``` python
 person_information_object = PersonInformation()
-print(PersonInforamtion.first_name)
+print(PersonInformation.first_name)
 ```
 
 ### Output 
