@@ -6,7 +6,7 @@ In this article, learn how to create and use a Python class.
 
 ## What is a class? 
 
-A class is a logical template to represent objects. In addition to functions or methods that perform related operations, a class can contain properties that represent state. Objects are instances of such classes representing one or more entities. The process of creating an object from a class is called instantiation. A single class can be instantiated several times representing several objects.
+A class is a logical template to represent objects. In addition to functions or methods that perform related operations, a class can contain properties that represent the state. Objects are instances of such classes representing one or more entities. The process of creating an object from a class is called instantiation. A single class can be instantiated several times representing several objects.
 
 #### Example
 
@@ -83,7 +83,7 @@ Once a class is defined, you can create an object by instantiating it. Object cr
 objectName = ClassName()
 ```
 
-This creates a new object instance, `objectName`, which can be used to access the attributes.
+This creates a new object instance `objectName`, which can be used to access the attributes.
 
 ### Sample 
 
@@ -100,7 +100,7 @@ Alex
 
 ## Defining class methods
 
-Methods are functions you can define to access, modify and perform operations on these attributes.
+Methods are the functions you can define to access, modify, and perform operations on these attributes.
 
 ### Syntax
 
@@ -119,7 +119,7 @@ def function_name(self, argument 1, ..., argument n):
 
 ### `self` parameter
 
-- The `self` parameter is the first parameter of any instance-level method. It's name is written in snake case by convention.
+- The `self` parameter is the first parameter of any instance-level method. It's name is written in snake_case by convention.
 - Its a reference to the current instance of the class and is used to access instance attributes or methods. It can also be used to refer to class-level attributes or methods.
 
 ### `__init__()` function
