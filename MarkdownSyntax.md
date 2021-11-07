@@ -1,28 +1,46 @@
 AFTER YOU DOWNLOAD THE FILE, "EDIT" IT TO KNOW THE SYNTAX
 
 # Headings	
-# for H1
-## for H2
-### for H3
-#### for H4
-##### for H5
-###### for H6
-Alternatively you cna use "===" for H1 and "--" for H2 
+`#` for H1
+
+`##` for H2
+
+`###` for H3
+
+`####` for H4
+
+`#####` for H5
+
+`######` for H6
+
+
+Alternatively you can use `===` for H1 and `--` for H2.
+
+~~~
 Heading 1 
 =========
 Heading 2 
 ----------
+~~~
+
 To create paragraphs, use a blank line to separate one or more lines of text. 
+
+~~~
 
 You should not indent paragraphs with spaces or tabs. 
 
-For line breaks also just enter in next line. 
+For line breaks, just enter in next line. 
 
+~~~
 
 **bold text**
----
+
+` **Insert text here** `
+
 __alternative bold__
----
+
+`__insert text here__`
+
 *Italic	 text*
 ---
 _alternative italic_
