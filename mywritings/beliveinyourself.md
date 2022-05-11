@@ -68,14 +68,17 @@ So, be kind to yourself. You are more capable and worthy than you give yourself 
  - Maintain a pleasant environment
 	 -  Maintain a clean and pleasant home for yourself.
 
----
-By | Alekhya Sai
---- | ---
-#####References:
+
+
+
+##### References:
 http://jamesclear.com/nothing-will-work-if-you-dont-believe-in-it
 
 http://tinybuddha.com/blog/how-to-believe-in-yourself-in-the-face-of-overwhelming-self-doubt/
 
 http://www.wikihow.com/Believe-in-Yourself
+
+By
+Alekhya Sai
 
 > Written with [StackEdit](https://stackedit.io/).
